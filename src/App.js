@@ -3,9 +3,8 @@ import React from "react";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
-import About from "./components/About";
-import Services from "./components/Services";
-import Work from "./components/Work";
+import Services from "./components/Portfolio";
+import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 
 const App = () => {
@@ -14,9 +13,8 @@ const App = () => {
       <Header />
       <Banner />
       <Nav />
-      <About />
       <Services />
-      <Work />
+      <Experience />
       <Contact />
       <div className="h-[4000px]"></div>
     </div>
