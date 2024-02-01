@@ -17,14 +17,6 @@ const Nav = () => {
             className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center">
             <BiHomeAlt />
           </Link>
-          {/* <Link
-            to="about"
-            activeClass="active"
-            smooth={true}
-            spy={true}
-            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center">
-            <BiUser />
-          </Link> */}
           <Link
             to="portfolio"
             activeClass="active"
