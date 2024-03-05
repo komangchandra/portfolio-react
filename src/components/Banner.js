@@ -30,14 +30,7 @@ const Banner = () => {
               className="mb-2 text-[33px] lg:text-[60px] font-secondary font-semibold leading-[1]">
               <span className="mr-4">I am a</span>
               <TypeAnimation
-                sequence={[
-                  "Web Developer",
-                  2000,
-                  "UI/UX Desainer",
-                  2000,
-                  // "Content Creator",
-                  // 2000,
-                ]}
+                sequence={["Web Programmer", 2000, "Content Creator", 2000]}
                 speed={50}
                 className="text-accent"
                 wrapper="span"
@@ -51,13 +44,17 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
               className="mb-2">
-              Front-End Developer with{" "}
-              <span className="font-semibold">React JS</span>. Proficient in{" "}
+              A fresh graduate focusing on{" "}
+              <span className="font-semibold">Web Programming</span>. I
+              understand{" "}
               <span className="font-semibold">
-                HTML, Tailwind CSS, Bootstrap
+                HTML, CSS, JavaScript, and PHP.
               </span>
-              . Experienced in{" "}
-              <span className="font-semibold">UI/UX development</span>.
+              . Experienced in using{" "}
+              <span className="font-semibold">
+                Bootstrap, Tailwind CSS and Laravel
+              </span>
+              .
             </motion.p>
             {/* My Sosial */}
             <motion.div
@@ -78,14 +75,17 @@ const Banner = () => {
                 <FaGithub />
               </a>
               <a
+                href="https://www.tiktok.com/@middlewaree"
+                target="_blank"
+                className="mr-5">
+                <FaTiktok />
+              </a>
+              <a
                 href="https://www.instagram.com/komang_chandraa/"
                 target="_blank"
                 className="mr-5">
                 <FaInstagram />
               </a>
-              {/* <a href="#" className="mr-5">
-                <FaTiktok />
-              </a> */}
             </motion.div>
           </div>
           {/* foto */}
